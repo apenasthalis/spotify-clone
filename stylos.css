@@ -1,0 +1,1009 @@
+.inicio{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    cursor: pointer;
+    fill: gray;
+    margin-left: 4%;
+    gap: 0.7rem;
+}
+
+.home{
+
+    width: 10%;
+    height: 50%;
+    
+
+}
+
+.start{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.inicio:hover{
+    fill: white;
+    color: white;
+    transition: 0.2s;
+}
+
+.pesquisar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    cursor: pointer;
+    fill: gray;
+    margin-left: 4%;
+    gap: 0.7rem;
+}
+
+.lupa{
+    width: 10%;
+    height: 50%;
+    
+   
+}
+
+.pesquisar:hover{
+    fill: white;
+    color: white;
+    transition: 0.2s;
+
+}
+
+.biblioteca{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 13%;
+
+}
+
+.biblioteca:hover{
+    fill: white;
+    color: white;
+}
+
+.library{
+
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+    height: 50%;
+    cursor: pointer;
+    gap: 1rem;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.library:hover{
+    fill: white;
+    color: white;
+    transition: 0.2s;
+}
+
+.livros{
+
+    width: 20%;
+    height: 100%;
+    fill: gray;
+}
+
+.adicionar{
+
+    gap: 1rem;
+    width: 30%;
+    height: 65%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+.adicionar:hover{
+    fill: white;
+    color: white;
+}
+
+.more{
+    width: 100%;
+    height: 100%;
+    fill: gray;
+    cursor: pointer;
+
+}
+
+.more:hover{
+    border-radius: 50%;
+    transition: 0.1s;
+}
+
+.show{
+    fill: gray;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.show:hover{
+    border-radius: 50%;
+    transition: 0.1s;
+
+}
+
+.mais{
+
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding: 0.5rem 0.5rem;
+}
+
+.mais:hover{
+    background-color: rgba(128, 128, 128, 0.61);
+    border-radius: 50%;
+    fill: white;
+    color: white;
+    transition: 0.1s;
+}
+
+.mais:hover svg{
+    fill: white;
+}
+
+.setinha{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    padding: 0.5rem 0.5rem;
+}
+
+.setinha:hover{
+    background-color: rgba(128, 128, 128, 0.61);
+    border-radius: 50%;
+    fill: white;
+    transition: 0.1s;
+}
+
+.setinha:hover svg{
+    fill: white;
+}
+
+
+.biblioteca:hover{
+    fill: white;
+}
+
+.botoes{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    height: 10%;
+    gap: 0.8rem;
+    margin-left: 1rem;
+}
+
+.botao1{
+    
+    width: 30%;
+    height: 80%;
+    background-color: #202020;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.botao1:hover{
+    background-color: #292828;
+}
+
+.botao2{
+    width: 30%;
+    height: 80%;
+    background-color: #202020;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.botao2:hover{
+    background-color: #292828;
+
+}
+
+.playlist{
+    overflow: auto;
+    width: 100%;
+    height: 74%;
+    
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    height: 13%;
+    margin-left: 1rem;
+
+}
+
+.lupinha{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 13%;
+    height: 90%;
+    border-radius: 50%;
+}
+
+.lupinha:hover{
+    background-color: #292828;
+}
+
+.minilupa{
+
+    fill: gray;
+    width: 60%;
+    height: 60%;
+    cursor: pointer;
+}
+
+.recentes{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 60%;
+    height: 70%;
+    cursor: pointer;
+    margin-right: 1rem;
+
+}
+
+.recentes:hover{
+    width: 85%;
+    height: 75%;
+    font-size: 17px;
+    fill: white;
+}
+
+.imgtres{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 0.5rem;
+}
+
+.tres{
+
+    fill: gray;
+    width: 90%;
+    height: 90%;
+}
+
+.tres:hover{
+    width: 1.2rem;
+    height: 1.2rem;
+    fill: white;
+}
+
+.salvos{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+   
+}
+
+.liked{
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    cursor: pointer;
+    padding-left: 1rem;
+}
+
+.fotu{
+    width: 4rem;
+    height: 3.2rem;
+}
+
+.liked:hover{
+    background-color: #2e2d2d;
+    border-radius: 10px;
+}
+
+.txt{
+}
+
+.span{
+    color: white;
+}
+
+.po{
+
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.ondas{
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    width: 100%;
+    height: 10vh;
+    cursor: pointer;
+    padding-left: 1rem;
+
+}
+
+.ondas:hover{
+    background-color: #2e2d2d;
+    border-radius: 10px;
+}
+
+.esquecer{
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    width: 100%;
+    height: 10vh;
+    cursor: pointer;
+    padding-left: 1rem;
+
+}
+
+.esquecer:hover{
+    background-color: #2e2d2d;
+    border-radius: 10px;
+}
+
+.nosdois{
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    width: 100%;
+    height: 10vh;
+    cursor: pointer;
+    padding-left: 1rem;
+
+}
+
+.nosdois:hover{
+    background-color: #2e2d2d;
+    border-radius: 10px;
+}
+
+.boomclap{
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    width: 100%;
+    height: 10vh;
+    cursor: pointer;
+    padding-left: 1rem;
+
+}
+
+.boomclap:hover{
+    background-color: #2e2d2d;
+    border-radius: 10px;
+}
+
+.nao{
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    width: 100%;
+    height: 10vh;
+    cursor: pointer;
+    padding-left: 1rem;
+
+}
+
+.nao:hover{
+    background-color: #2e2d2d;
+    border-radius: 10px;
+}
+
+.billie{
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    width: 100%;
+    height: 10vh;
+    cursor: pointer;
+    padding-left: 1rem;
+
+}
+
+.billie:hover{
+    background-color: #2e2d2d;
+    border-radius: 10px;
+}
+
+.derxan{
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    width: 100%;
+    height: 10vh;
+    cursor: pointer;
+    padding-left: 1rem;
+
+}
+
+.derxan:hover{
+    background-color: #2e2d2d;
+    border-radius: 10px;
+}
+
+.jazz{
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    width: 100%;
+    height: 10vh;
+    cursor: pointer;
+    padding-left: 1rem;
+
+}
+
+.jazz:hover{
+    background-color: #2e2d2d;
+    border-radius: 10px;
+}
+
+.ariana{
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    width: 100%;
+    height: 10vh;
+    cursor: pointer;
+    padding-left: 1rem;
+    
+}
+
+.ariana:hover{
+    background-color: #2e2d2d;
+    border-radius: 10px;
+}
+
+.coco{
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    width: 100%;
+    height: 10vh;
+    cursor: pointer;
+}
+
+.coco:hover{
+    background-color: #2e2d2d;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar{
+    width: 0.4vw;
+    background-color: rgba(108, 108, 156, 0);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+    height: 1vh;
+   
+}
+
+.fotos{
+
+    width: 3.5vw;
+    height: 7vh;
+
+}
+
+/*CENTROOOOOOOOOOOOOOOOOO*/
+
+.cabecacorpo{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.anterior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3vh;
+    width: 5vw;
+    height: 10vh;
+    gap: 1rem;
+
+}
+
+.borda1{
+    width: 4vw;
+    height: 4vh;
+    background-color: #2020209a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.posterior{
+    width: 70%;
+    height: 90%;
+    fill: gray;
+}
+
+.posterior1{
+    width: 70%;
+    height: 90%;
+    fill: gray;  
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 10vh;
+    gap: 1rem;
+    margin-right: 2.2vw;
+}
+
+.notif{
+    width: 3vw;
+    height: 3vh;
+    fill: gray;
+    cursor: pointer;
+}
+
+.musashi{
+    width: 20%;
+    height: 3vh;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.titulo{
+
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 9vh;
+    margin-left: 1rem;
+}
+
+.cumprimento{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.tocados-recentes{
+
+    width: 100%;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+  
+}
+
+.list{
+    margin-left: 1vw;
+    background-color: #292828;
+    display: flex;
+    align-items: center;
+    width: 22vw;
+    height: 7.8vh;
+    border-radius: 5px;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.list:hover{
+    background-color: #3b3b3b;
+    
+}
+
+.botao-none{
+
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+
+    height: 8vh;
+    opacity: 0;
+
+}
+
+.borda7{
+
+    width: 3vw;
+    height: 6vh;
+    background-color: rgb(7, 196, 7);
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.botao-none:hover{
+    opacity: 1;
+}
+
+.playverde{
+
+    width: 1rem;
+    height: 1rem;
+    fill: black;
+}
+
+.miniaturas{
+    width: 4vw;
+    height: 7.6vh;
+
+}
+
+.txtlist{
+    color: white;
+    font-weight: 500;
+}
+
+.titulo2{
+
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    height: 10vh;
+}
+
+
+.titulo3{
+    cursor: pointer;
+
+}
+
+.titulo3:hover{
+    text-decoration: underline white;
+}
+
+.h2{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.all{
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.all:hover{
+    text-decoration: underline;
+
+}
+
+.make-me{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 70vw;
+    height: 42vh;
+    margin-left: 1vw;
+}
+
+.imgs{
+
+    width: 4rem;
+    height: 10rem;
+}
+
+.mini{
+    
+    margin-top: 1rem;
+    width: 11vw;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.borda{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 13vw;
+    height: 42vh;
+    background-color: rgb(24, 23, 23);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.borda:hover{
+    background-color: rgb(44, 43, 43);
+
+}
+
+.playnothing{
+
+    width: 8vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 10vw;
+    left: 7vh;
+    opacity: 0;
+}
+
+.playnothing:hover{
+    opacity: 1;
+}
+
+
+.borda9{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4vw;
+    height: 8vh;
+    background-color: rgb(3, 201, 3);
+    border-radius: 50%;
+
+}
+
+.verdinha{
+
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: black;
+}
+
+
+.daily{
+
+    margin-top: 1rem;
+    margin-right: 4rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.dailys{
+    font-size: 0.8em;
+    margin-left: 1rem;
+}
+
+.daily1{
+    margin-top: 1rem;
+    margin-right: 3rem;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.daily12{
+    margin-top: 1rem;
+    margin-right: 2rem;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.daily123{
+    margin-top: 1rem;
+    margin-right: 6rem;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.daily1234{
+    margin-top: 1rem;
+    margin-right: 4rem;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.imagemm{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8vw;
+    height: 10vh;
+}
+
+.tim{
+
+    width: 4vw;
+    height: 8vh;
+}
+
+.txtmusica{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 8vw;
+    height: 10vh;
+}
+
+
+
+.musicaa{
+
+    color: rgb(180, 176, 176);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.musicaa:hover{
+    text-decoration: underline;
+}
+
+.music{
+    font-size: 0.675rem;
+    font-weight: 300;
+
+}
+
+.music:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.coracao{
+
+    display: flex;
+    align-items: center;
+
+    width: 7vw;
+    height: 8vh;
+}
+
+.heart{
+    fill: gray;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+.heart:hover{
+    fill: white;
+}
+
+.track{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    height: 10vh;
+    flex-direction: column;
+}
+
+.player{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 10vh;
+    gap: 1rem;
+}
+
+.time{
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    height: 4vh;
+}
+
+
+.play{
+    fill: gray;
+    cursor: pointer;
+}
+
+.playt{
+    fill: black;
+    cursor: pointer;
+}
+
+.play:hover{
+    fill: white;
+}
+
+.barra{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24vw;
+    height: 10vh;
+    gap: 0.7rem;
+}
+
+.now{
+    fill: gray;
+    cursor: pointer;
+}
+
+.now:hover{
+    fill: white;
+}
+
+
+.slider{
+
+    width: 9vw;
+    height: 5vh;
+}
+
+.music-bar{
+
+    width: 30vw;
+    height: 1vh;
+
+}
+
+.music-bar::-webkit-slider-thumb{
+    appearance: none;
+    background-color: green;
+}
+
+.volume-bar{
+    width: 7rem;
+    height: 0.2rem;
+}
+
+.volume-bar::-webkit-slider{
+    color:green;
+    -webkit-appearance: none;
+}
+
+.bordaplay{
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.minutes{
+    font-size: 14px;
+}
