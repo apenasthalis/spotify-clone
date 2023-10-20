@@ -81,3 +81,104 @@ main{
 
 }
 
+/* @media screen and (max-width:770px){
+    body{
+        width: 100%;
+    }
+
+    .span{
+
+    }
+
+    .po{
+
+    }
+
+    .list{
+        width: 18vw;
+        height: 6vh;
+    }
+
+    .lateral{
+        width: 100%;
+    }
+
+    .superior{
+        width: 100%;
+    }
+
+    .inferior{
+        width: 100%;
+    }
+    .centro{
+        width: 100%;
+    }
+    .corpo{
+        width: 100%;
+    }
+    .tocador{
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width:700px){
+    body{
+        width: 100%;
+    }
+
+    .lateral{
+        width: 100%;
+    }
+
+    .superior{
+        width: 100%;
+    }
+
+    .inferior{
+        width: 100%;
+    }
+    .centro{
+        width: 100%;
+    }
+    .corpo{
+        width: 100%;
+    }
+    .tocador{
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width:984px){
+    .make-me{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 20vw;
+    height: 80vh;
+    }
+
+    .borda{
+        width: 8vw;
+        height: 10vh; 
+    }
+
+    .lateral{
+        width: 30vw;
+    }
+
+   
+
+    .imgs{
+        width: 2rem;
+        height: 8rem;
+    }
+}
+
+@media screen and (max-width: 1205px){
+    .mini{
+        width: 3rem;
+        height: 3rem;
+    }
+} */

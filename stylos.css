@@ -328,6 +328,11 @@
 }
 
 .txt{
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;    
+    width: 16rem;
+    height: 3rem;
 }
 
 .span{
@@ -336,7 +341,7 @@
 
 .po{
 
-    margin-top: 5px;
+    /* margin-top: 5px; */
     font-size: 14px;
 }
 
@@ -512,8 +517,8 @@
 
 .fotos{
 
-    width: 3.5vw;
-    height: 7vh;
+    width: 3rem;
+    height: 3rem;
 
 }
 
@@ -664,8 +669,8 @@
 }
 
 .miniaturas{
-    width: 4vw;
-    height: 7.6vh;
+    width: 3rem;
+    height: 3rem;
 
 }
 
@@ -720,8 +725,15 @@
     margin-left: 1vw;
 }
 
-.imgs{
+.txt123{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
+
+.imgs{
+    border: 1px solid white;
     width: 4rem;
     height: 10rem;
 }
@@ -729,8 +741,8 @@
 .mini{
     
     margin-top: 1rem;
-    width: 11vw;
-    height: 50vh;
+    width: 9rem;
+    height: 8rem;
     border-radius: 10px;
 }
 
